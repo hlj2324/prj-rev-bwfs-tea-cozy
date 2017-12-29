@@ -1,0 +1,22 @@
+body{background-color: black;font-family: helvetica;font-size:22px;color:
+  seashell;opacity:0.9; text-align: center; display:flex; justify-content: center;align-content: center;}
+ul{list-style: none;}
+.logo{height:50px; padding-left: 10px}
+.header{position:fixed;z-index: 1; border-bottom: 1px solid seashell;height:69px;
+display:flex;flex-direction:row;justify-content:space-between;width:100%;}
+.main{position:relative; padding-top: 69px;display:flex;flex-direction:column;justify-content:space-between;}
+.nav li{display:inline-block;padding-right: 10px; text-decoration: underline;}
+#mission{background-image:url('images/img-mission-background.jpg'); height:700px;
+width:1200px;display: flex; flex-direction: column; justify-content: center;}
+.highlight{background-color:black;}
+.highlight2{width:300px;height:300px;opacity: 1; background-color: black; text-align:center;}
+.highlight2 li{text-align:justify;}
+#locations{background-image:url('images/img-locations-background.jpg');width:1200px; height:500px;
+display:flex;flex-direction:column;justify-content:center; align-content:center;}
+.address{display:flex;flex-direction:row;justify-content:space-around; align-content:center;}
+#featured{width:1000px;display:flex;flex-direction:column;justify-content:center; align-content: center;}
+.image{display:flex;flex-direction:row;flex-wrap: wrap;justify-content:space-around; align-content:center;}
+.item img{width:300px; height:200px;}
+.imageblock h4{margin-top: 0px;}
+.contact{height:200px;}
+.trademark{margin-left: 20px;text-align: left;}
